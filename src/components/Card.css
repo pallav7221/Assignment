@@ -1,0 +1,27 @@
+.box{
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+.profileImg{
+    width:100%;
+    height:300px;
+}
+.cardMainContent{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+}
+.name{
+    font-weight: bold;
+}
+.innerData{
+    display: flex;
+    gap: 10px;
+}
+.userInfo>div:nth-child(2){
+    display: flex;
+    gap: 5px;
+}

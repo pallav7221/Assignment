@@ -1,8 +1,4 @@
 .App {
-  text-align: center;
-  box-sizing: border-box;
-  display:grid;
-  grid-template-columns: repeat(4,1fr);
+  column-count: 4;
   gap: 10px;
-  height: auto;
 }
